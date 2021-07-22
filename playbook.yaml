@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: slaves
   become: true
   become_user: root
   tasks:
