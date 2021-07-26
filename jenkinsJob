@@ -3,7 +3,7 @@ pipeline{
   stages{
 	stage("Clone the repo"){
 	steps{
-	git branch: 'maste', url: 'https://github.com/fahad-shaikh09/DevOps-Project.git'
+	git branch: 'master', url: 'https://github.com/fahad-shaikh09/DevOps-Project.git'
 	}
 	}
 
